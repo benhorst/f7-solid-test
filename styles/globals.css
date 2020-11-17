@@ -1,0 +1,33 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.page,
+div.fullscreen {
+  height: 100vh;
+  width: 100vw;
+}
+
+.vertical-fill-box,
+.ui.container.vertical-fill-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex-grow {
+  flex: 1 0 auto;
+}
